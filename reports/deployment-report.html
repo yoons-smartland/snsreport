@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>스마트랜드 SNS 보고서 배포 현황</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #667085;
+      --line: #d7dee8;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --navy: #1f4e79;
+      --teal: #0f766e;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 28px 36px;
+    }
+
+    header h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+
+    header p {
+      margin: 0;
+      color: #dbeafe;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 28px 22px 54px;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 19px;
+    }
+
+    p, li, td, th {
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eaf2f8;
+      color: #17324d;
+      text-align: left;
+    }
+
+    a {
+      color: var(--navy);
+      font-weight: 700;
+      word-break: break-all;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--teal);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 760px) {
+      header { padding: 24px; }
+      main { padding: 18px 12px 40px; }
+      table { display: block; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>스마트랜드 SNS 보고서 배포 현황</h1>
+    <p>GitHub Pages에 별도 배포된 기간별 HTML 보고서 목록</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>배포 목록</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>기간</th>
+            <th>게시글 수</th>
+            <th>배포 상태</th>
+            <th>URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>기본 보고서</td>
+            <td>2026년 6월 1일-6월 9일</td>
+            <td>17건</td>
+            <td><span class="tag">배포 완료</span></td>
+            <td><a href="https://yoons-smartland.github.io/snsreport/">https://yoons-smartland.github.io/snsreport/</a></td>
+          </tr>
+          <tr>
+            <td>별도 보고서</td>
+            <td>2026년 5월 1일-5월 31일</td>
+            <td>63건</td>
+            <td><span class="tag">배포 완료</span></td>
+            <td><a href="https://yoons-smartland.github.io/snsreport/reports/2026-05-01_2026-05-31.html">https://yoons-smartland.github.io/snsreport/reports/2026-05-01_2026-05-31.html</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">이 페이지는 보고서 원문이 아니라, 배포된 HTML 보고서의 위치와 상태를 확인하기 위한 별도 배포 현황 페이지입니다.</p>
+    </section>
+  </main>
+</body>
+</html>
